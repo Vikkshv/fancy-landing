@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petProject</title>
+    <link rel="stylesheet" href="css.css/main.css">
+    <link rel="preload" href="fonts/GilroyExtrabold.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="fonts/GilroyBold.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="fonts/Chronicle Display Roman.otf" as="font" type="font/woff2" crossorigin="">
+    <script src="js/app.js" defer></script>
+    <script src="libs/rain.js" defer></script>
+</head>
+<body>
+    <div class="page__body">
+        <div class="background-container">
+            <div class="header">
+                <img src="img/Logo.svg" alt="logo" class="logo">
+                <div class="header__menu">
+                    <div class="header__item">01</div>
+                    <div class="header__item">02</div>
+                    <div class="header__item">03</div>
+                </div>
+            </div>
+            <section class="layers">
+                <div class="layers__container">
+                    <div class="layers__item layer-1" style="background-image: url(img/layer-1.jpg);"></div>
+                    <div class="layers__item layer-2" style="background-image: url(img/layer-2.png);"></div>
+                    <div class="layers__item layer-3">
+                        <div class="hero-content">
+                            <div class="hero-content__social">
+                                <div class="hero-content__social--text">
+                                    <nobr>Follow us</nobr>
+                                </div>
+                                <img src="img/instagram.png" class="hero-content__social--link"></img>
+                                <img src="img/twitter.png" class="hero-content__social--link"></img>
+                            </div>
+                            <div class="hero-content__main">
+                                <div class="content__supertitle-container">
+                                    <div class="content__container--line"></div>
+                                    <div class="hero-content__supertitle">
+                                        A Hiking guide
+                                    </div>
+                                </div>
+                                <div class="hero-content__title">
+                                    <span><h1 style="font-weight: 500;">Be prepared for the Mountains and beyond!</h1></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layers__item layer-4">
+                        <canvas class="rain"></canvas>
+                    </div>
+                    <div class="layers__item layer-5" style="background-image: url(img/layer-5.png);"></div>
+                    <div class="layers__item layer-6" style="background-image: url(img/layer-6.png);"></div>
+                </div>
+            </section>
+            <div class="gradient"></div>
+            <section class="content">
+                <div class="content__container">
+                    <div class="01 content__container--item">
+                        <div class="content__container--text">
+                            <div class="content__container--background">01</div>
+                            <div class="content__supertitle-container">
+                                <div class="content__container--line"></div>
+                                <p class="content__container--supertitle">Get Started</p>
+                            </div>
+                            <h2 class="content__container--title">What level of  hiker are you?</h2>
+                            <p class="content__container--main">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
+                        </div>
+                        <img src="./img/01.png" alt="img" class="content__container--img">
+                    </div>
+                    <div class="02 content__container--item">
+                        <img src="./img/02.png" alt="img" class="content__container--img">
+                        <div class="content__container--text">
+                            <div class="content__container--background">02</div>
+                            <div class="content__supertitle-container">
+                                <div class="content__container--line"></div>
+                                <p class="content__container--supertitle">Hiking Essentials</p>
+                            </div>
+                            <h2 class="content__container--title">Picking the right Hiking Gear!</h2>
+                            <p class="content__container--main">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
+                                Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+                        </div>
+                    </div>
+                    <div class="03 content__container--item">
+                        <div class="content__container--text">
+                            <div class="content__container--background">03</div>
+                            <div class="content__supertitle-container">
+                                <div class="content__container--line"></div>
+                                <p class="content__container--supertitle">where you go is the key</p>
+                            </div>
+                            <h2 class="content__container--title">Understand Your Map & Timing</h2>
+                            <p class="content__container--main">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+                        </div>
+                        <img src="./img/03.png" alt="img" class="content__container--img">
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer__company">
+                        <img src="./img/Logo.svg" alt="logo" class="footer__company--logo">
+                        <div class="footer__company--description">Get out there & discover your next slope, mountain & destination!</div>
+                        <div class="footer__company--text">Copyright 2019 MNTN, Inc. Terms & Privacy</div>
+                    </div>
+                    <div class="footer__info"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- <div class="input-wrapper">
+        <input id="input" type="text">
+        <input id="button" type="submit" value="нажми меня">
+    </div> -->
+</body>
+</html>
